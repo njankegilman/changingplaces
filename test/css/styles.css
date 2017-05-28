@@ -9,6 +9,15 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
+h1, h2, h3 {
+  font-family: 'Raleway', sans-serif;
+}
+
+.ChangingPlacesText {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+}
+
 /** HEADER **/
 #header-nav {
   background-color: #bbeeff;
@@ -32,7 +41,7 @@ body {
   font-size: 1.5em;
   /*text-transform: uppercase;*/
   font-weight: bold;
-  text-shadow: 1px 1px 1px #777;
+  /*text-shadow: 1px 1px 1px #777;*/
   margin-top: 0;
   margin-bottom: 5px;
   line-height: 1;
@@ -45,7 +54,8 @@ body {
   margin-top: 10px;
 }
 #nav-list a {
-  color: #0172B7; /* Blue to match the logo */
+  color: #0172B7;     /* Blue to match the logo */
+  /*color: #002255;*/ /* Darker blue */
   text-align: center;
 }
 #nav-list a:hover {
@@ -84,6 +94,7 @@ body {
   box-shadow: 0 0 50px #3F0C1F;
   border: 2px solid #002255;
   padding: 0;
+  margin-bottom: 15px;
 }
 
 #page-banner .image-div {
@@ -92,23 +103,54 @@ body {
   overflow: hidden;
 }
 
+.text-over {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 0;
+  font-size: 1.2em;
+  font-style: italic;
+  font-weight: bold;
+  /*text-transform: uppercase;*/
+  background-color: #000;
+  color: #fff;
+  opacity: .8;
+}
 
+/*#about:hover, #who-uses:hover, #get-involved:hover, #find:hover {
+  box-shadow: 0 1px 5px 1px #cccccc;
+}*/
 
-
-
-
-
-#menu-tile, #specials-tile, #map-tile {
+/*#about, #who-uses, #get-involved, #find {
+  background-color: #bbeeff;
   height: 250px;
   width: 100%;
   margin-bottom: 15px;
-  position: relative;
-  border: 2px solid #3F0C1F;
+  border: 2px solid #002255;
+  overflow: hidden;
+}*/
+
+.main-content a {
+  display: block;
+  color: #002255;
+  text-decoration: none;
+  background-color: #bbeeff;
+  height: 250px;
+  /*width: 100%;*/
+  margin: 15px 0;
+  padding: 15px;
+  /*position: relative;*/
+  border: 2px solid #002255;
   overflow: hidden;
 }
-#menu-tile:hover, #specials-tile:hover, #map-tile:hover {
+.container .row div a:hover {
   box-shadow: 0 1px 5px 1px #cccccc;
 }
+
+
+
 #menu-tile {
   background: url('../images/menu-tile.jpg') no-repeat;
   background-position: center;
@@ -143,6 +185,13 @@ body {
     background: url('../images/Banner-HamiltonGardens-1166x380.png') no-repeat;
     height: 380px;
   }
+
+  .main-content #what-is a, #get-involved a, {
+    margin-left: 0;
+  }
+  #who-uses a, #find a {
+    margin-right: 0;
+  }
   /* End Home Page */
 }
 
@@ -153,6 +202,14 @@ body {
     background: url('../images/Banner-HamiltonGardens-966x315.png') no-repeat;
     height: 315px;
   }
+
+  #what-is a, #get-involved a, {
+    margin-left: 0;
+  }
+  #who-uses a, #find a {
+    margin-right: 0;
+  }
+
   /* End Home Page */
 }
 
@@ -210,6 +267,12 @@ body {
 /********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
 @media (max-width: 479px) {
   /* Home Page */
+
+  .text-over {
+    font-weight: normal;
+    font-size: small;
+  }
+
 /*  #page-banner .image-div {
     background: none;
   }*/
