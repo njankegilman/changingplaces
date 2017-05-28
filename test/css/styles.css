@@ -197,6 +197,13 @@ h1, h2, h3 {
 
 /********** Medium devices only **********/
 @media (min-width: 992px) and (max-width: 1199px) {
+ 
+  /* Header */
+  #nav-list {
+    margin-top: -50px; /* Draws up the row of page links in the header */
+  }
+  /* End Header */
+
   /* Home Page */
   #page-banner .image-div {
     background: url('../images/Banner-HamiltonGardens-966x315.png') no-repeat;
