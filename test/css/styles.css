@@ -6,12 +6,12 @@ body {
   font-size: 16px;
   color: #fff;
   background-color: #61122f;
-  font-family: 'Oxygen', sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 /** HEADER **/
 #header-nav {
-  background-color: #f6b319;
+  background-color: #bbeeff;
   border-radius: 0;
   border: 0;
 }
@@ -27,15 +27,15 @@ body {
   padding-top: 25px;
 }
 .navbar-brand h1 { /* Changing Places name */
-  font-family: 'Lora', serif;
-  color: #557c3e;
+  font-family: 'Raleway', sans-serif;
+  color: #0172B7;
   font-size: 1.5em;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
   font-weight: bold;
   text-shadow: 1px 1px 1px #222;
   margin-top: 0;
   margin-bottom: 0;
-  line-height: .75;
+  line-height: 1;
 }
 .navbar-brand a:hover, .navbar-brand a:focus {
   text-decoration: none;
@@ -45,7 +45,7 @@ body {
   margin-top: 10px;
 }
 #nav-list a {
-  color: #951C49;
+  color: #0172B7; /* Blue to match the logo */
   text-align: center;
 }
 #nav-list a:hover {
