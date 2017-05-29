@@ -107,6 +107,17 @@ h2 {
   overflow: hidden;
 }
 
+.headline {
+  font-size: 1.2em;
+  font-style: italic;
+  font-weight: bold;
+  margin-bottom: 0;
+  padding-left: 10px;
+  background-color: #000;
+  color: #fff;
+  opacity: .8;
+}
+
 .text-over {
   position: absolute;
   bottom: 0;
@@ -153,7 +164,9 @@ h2 {
   box-shadow: 0 1px 5px 1px #cccccc;
 }
 
-
+/*iframe {
+  border: 0;
+}*/
 
 
 /* END HOME PAGE */
@@ -195,6 +208,12 @@ h2 {
   #who-uses a, #find a {
     margin-right: 0;
   }
+
+/*  iframe {
+    height: 521;
+    width: 521;
+  }*/
+
   /* End Home Page */
 }
 
@@ -237,6 +256,11 @@ h2 {
   #who-uses a, #find a {
     margin-right: 0;
   }
+
+/*  iframe {
+    height: 421;
+    width: 421;
+  }*/
 
   /* End Home Page */
 }
@@ -285,13 +309,21 @@ h2 {
     background: url('../images/arrow-block-right-186x68.png') no-repeat;
   }
 
+/*  iframe {
+    height: 521;
+    width: 521;
+  }*/
+
   /* End Home Page */
 }
 
 /********** Extra small devices only **********/
 @media (max-width: 767px) {
 
-
+/*  iframe {
+    height: 421;
+    width: 421;
+  }*/
 
   /* Home Page */
 /*  #page-banner .image-div {
