@@ -39,6 +39,9 @@ h2 {
 .navbar-brand {
   padding-top: 25px;
 }
+.navbar-brand a {
+  text-decoration: none;
+}
 .navbar-brand h1 { /* Changing Places name */
   font-family: 'Raleway', sans-serif;
   color: #0172B7;
@@ -154,7 +157,12 @@ h2 {
   overflow: hidden;
 }*/
 
-.main-content a {
+a {
+  color: #fff;
+  text-decoration: underline;
+}
+
+a.tile {
   display: block;
   color: #002255;
   text-decoration: none;
@@ -167,13 +175,17 @@ h2 {
   border: 2px solid #002255;
   overflow: hidden;
 }
-.container .row div a:hover {
+a.tile:hover {
   box-shadow: 0 1px 5px 1px #cccccc;
 }
 
 /*iframe {
   border: 0;
 }*/
+
+.image-list li {
+  padding: 2px;
+}
 
 
 /* END HOME PAGE */
