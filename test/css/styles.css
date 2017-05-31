@@ -241,7 +241,7 @@ a.tile:hover {
  
   /* Header */
   #nav-list {
-    margin-top: -50px; /* Draws up the row of page links in the header */
+    margin-top: -50px; /* Draws the row of page links up into the header */
   }
   /* End Header */
 
@@ -289,7 +289,7 @@ a.tile:hover {
   
   /* Header */
   #nav-list {
-    margin-top: -50px; /* Draws up the row of page links in the header */
+    margin-top: -50px; /* Draws the row of page links up into the header */
   }
   /* End Header */
 
@@ -387,19 +387,12 @@ a.tile:hover {
 /*  #page-banner .image-div {
     background: none;
   }*/
+
   /* End Home Page */
   
 
 
 
-/*  .col-xxs-12 {
-    position: relative;
-    min-height: 1px;
-    padding-right: 15px;
-    padding-left: 15px;
-    float: left;
-    width: 100%;
-  }*/
 }
 
 
